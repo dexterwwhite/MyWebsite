@@ -1,0 +1,71 @@
+.button_1 {
+  color: #FFFFFF;
+  border: 2px solid rgb(234, 236, 161);
+  border-radius: 0px;
+  padding: 8px;
+  display: inline-block;
+  float: left;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 20px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-decoration: none;
+  /* box-shadow: inset 0 0 0 0 #D80286; */
+  /* -webkit-transition: ease-out 0.4s; */
+  /* -moz-transition: ease-out 0.4s; */
+  /* transition: ease-out 0.4s; */
+}
+
+/* .button_1 { */
+  /* color: #FFF; */
+  /* border: 2px solid rgb(216, 2, 134); */
+  /* border-radius: 0px; */
+  /* padding: 18px 36px; */
+  /* display: inline-block; */
+  /* font-family: "Lucida Console", Monaco, monospace; */
+  /* font-size: 20px; */
+  /* letter-spacing: 1px; */
+  /* cursor: pointer; */
+  /* box-shadow: inset 0 0 0 0 #D80286; */
+  /* -webkit-transition: ease-out 0.4s; */
+  /* -moz-transition: ease-out 0.4s; */
+  /* transition: ease-out 0.4s; */
+/* } */
+
+.slide_down:hover, .slide_down:active {
+  background-color: #2F908C;
+}
+
+.topleft {
+	position: absolute;
+	top: 250px;
+	left: 250px;
+}
+
+  #outer {
+  width: 524px;
+  margin: 50px auto 0 auto;
+  text-align: center;
+}
+
+#portfolio {
+	/*position: absolute; */
+	width: 250px;
+	height: 250px;
+	z-index: 15;
+	top: 50%;
+	left: 50%;
+	margin: 0 0 0 0;
+	text-align: center;
+	/* background: red; */
+}
+
+body {
+	background-color: #4DC9C4;
+	color: #113E3D;
+}
+
+.dark-mode {
+	background-color: #113E3D;
+	color: #4DC9C4;
+}
