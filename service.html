@@ -10,43 +10,28 @@
 <p style="font-family:verdana; font-size:40px" align="center"><font color="#FFFFFF";">Dexter White's Website</p>
 
 <nav>
-  <ul>
-    <div id="outer">
-	<div class="button_1 slide_down"> 
-	<a href="index.html">Home</a>
+  <div class="container">
+	<div class="col text-center">
+	  <div class="btn-group btn-group-lg text-center" role="group" aria-label="Navigation Bar Buttons">
+		<a href="index.html" class="btn button_1 darken active" role="button" aria-pressed="true">Home</a>
+		<a href="portfolio.html" class="btn button_1 darken active" role="button" aria-pressed="true">Portfolio</a>
+		<a href="qualifications.html" class="btn button_1 darken active" role="button" aria-pressed="true">Qualifications</a>
+		<a href="service.html" type="button" class="btn button_1 darken active" role="button" aria-pressed="true">Service</a>
+	  </div>
 	</div>
-	<div id="outer">
-	<div class="button_1 slide_down"> 
-	<a href="portfolio.html">Portfolio</a>
-	</div>
-	<div id="outer">
-	<div class="button_1 slide_down"> 
-	<a href="qualifications.html">Qualifications</a>
-	</div>
-	<div id="outer">
-	<div class="button_1 slide_down"> 
-	<a href="service.html">Service</a>
-  </ul>
+  </div>
 </nav>
 
 <body>
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <!-- <tr> -->
-    <!-- <td align="center"><h3><font color="#990000">Name: Dexter White</font></h3></td> -->
-  <!-- </tr> -->
-  <!-- <tr> -->
-    <!-- <td align="center"><font color="#990000"><br><br><b>Major: Computer Science</b></font></td> -->
-  <!-- </tr> -->
-  <!-- <tr> -->
-	<!-- <td align="center"><font color="color:MediumSeaGreen;"><br><br>I have volunteered for many places, and I am a TA(helping up and coming computer science students)!</font></td> -->
-  <!-- </tr> -->
-</table>
-<!-- <p style="font-family:verdana"><font color="#990000";align="center">Paragraph test (Please). </p> -->
 
-<h1 align="center" style="margin-top: 50px;">My Service</h1>
+  <p class="my-3" align="center">
+    <button type="button" onclick="changeBackgroundColor()" class="btn btn-dark">Night-Mode</button>
+  </p>
 
-<div class="row" align="center" style="margin-top: 50px;">
-  <div class="col-md-4">
+<h1 align="center" >My Service</h1>
+
+<div class="row justify-content-around" align="center" style="margin-top: 50px;">
+  <div class="col-md-3">
     <h2>Aggie Miracle</h2>
 	<p>This past year, I have had the pleasure of being a part of  
 	  <a href="https://www.aggiemiracle.com/">Aggie Miracle</a>
@@ -58,7 +43,7 @@
 	  every year.
 	</p>
   </div>
-   <div class="col-md-4">
+   <div class="col-md-3">
     <h2>Seven Loaves</h2>
 	<p>Although I have not been able to serve at 
 	  <a href="https://www.thestorehousecc.org/seven-loaves/">Seven Loaves</a>
@@ -70,7 +55,7 @@
 	  to get them the help they need.
 	</p>
   </div>
-   <div class="col-md-4">
+   <div class="col-md-3">
     <h2>TA Position</h2>
 	<p>This semester, I was actually given the honor of becoming a Teaching Assistant for Doctor 
 	  <a href="https://engineering.tamu.edu/cse/profiles/Carlisle-Martin.html">Martin Carlisle</a>
@@ -87,10 +72,6 @@
   <a href="https://ntfb.org/">North Texas Food Bank</a>
   , and many more. 
   </p>
-
-<p align="center">
-  <button type="button" onclick="changeBackgroundColor('dark')" class="btn btn-dark">Night-Mode</button>
-</p>
 
 <script src="functions.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>

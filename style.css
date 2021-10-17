@@ -32,7 +32,7 @@
   /* transition: ease-out 0.4s; */
 /* } */
 
-.slide_down:hover, .slide_down:active {
+.darken:hover, .darken:active {
   background-color: #2F908C;
 }
 
@@ -60,12 +60,12 @@
 	/* background: red; */
 }
 
-body {
-	background-color: #4DC9C4;
-	color: #113E3D;
-}
+/* body { */
+	/* background-color: #4DC9C4; */
+	/* color: #113E3D; */
+/* } */
 
-.dark-mode {
-	background-color: #113E3D;
-	color: #4DC9C4;
-}
+/* .dark-mode { */
+	/* background-color: #113E3D; */
+	/* color: #4DC9C4; */
+/* } */
