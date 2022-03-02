@@ -1,11 +1,46 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  background-color: #AAD0D8;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+.navi-bar {
+  background-color: #7097A8;
+  color: black;
+  box-shadow: 0 0 10px black, 0 0 3px black inset;
+}
+
+.profile-pic {
+  border-radius: 10px;
+  box-shadow: 0 0 10px #7097A8;
+}
+
+.boxed {
+  border-radius: 10px;
+  box-shadow: 0 0 10px #7097A8, 0 0 2px #7097A8 inset;
+}
+
+.my-footer {
+  background-color: #7097A8;
+  color: black;
+  box-shadow: 0 0 3px #7097A8, 0 0 1px #AAD0D8 inset;
+}
+
 .button_1 {
-  color: #FFFFFF;
-  border: 2px solid rgb(234, 236, 161);
+  color: black;
+  border-top: 4px solid #AAD0D8;
+  border-left: 2px solid #AAD0D8;
+  border-right: 2px solid #AAD0D8;
+  border-bottom: 4px solid #AAD0D8;
   border-radius: 0px;
+  box-shadow: 0 0 10px #AAD0D8, 0 0 1px #AAD0D8 inset;
   padding: 8px;
   display: inline-block;
   float: left;
-  font-family: "Lucida Console", Monaco, monospace;
   font-size: 20px;
   letter-spacing: 1px;
   cursor: pointer;
@@ -33,7 +68,11 @@
 /* } */
 
 .darken:hover, .darken:active {
-  background-color: #2F908C;
+  background-color: #AAD0D8;
+  border-top: 4px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 4px solid white;
 }
 
 .topleft {
