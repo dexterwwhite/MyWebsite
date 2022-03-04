@@ -11,7 +11,7 @@ h1 {
 .navi-bar {
   background-color: #7097A8;
   color: black;
-  box-shadow: 0 0 10px black, 0 0 3px black inset;
+  box-shadow: 0 0 10px black, 0 0 6px black inset;
 }
 
 .profile-pic {
