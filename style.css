@@ -16,12 +16,12 @@ h1 {
 
 .profile-pic {
   border-radius: 10px;
-  box-shadow: 0 0 10px #7097A8;
+  box-shadow: 0 0 1rem #7097A8;
 }
 
 .boxed {
   border-radius: 10px;
-  box-shadow: 0 0 10px #7097A8, 0 0 2px #7097A8 inset;
+  box-shadow: 0 0 1rem #7097A8, 0 0 2px #7097A8 inset;
 }
 
 .my-footer {
@@ -40,8 +40,7 @@ h1 {
   box-shadow: 0 0 10px #AAD0D8, 0 0 1px #AAD0D8 inset;
   padding: 8px;
   display: inline-block;
-  float: left;
-  font-size: 20px;
+  font-size: 40px;
   letter-spacing: 1px;
   cursor: pointer;
   text-decoration: none;

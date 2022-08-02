@@ -10,8 +10,52 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 </head>
 
+<!--
+	GOALS:
+	Add all projects to portfolio
+	Update HTML of qualifications page
+	Update HTML of service page
+	Update nav bar for each page
+	Add footer to each page
+
+	Make generic "Project Page" template
+	Make pages for each project
+
+	FINALLY, do CSS:
+		CSS of Home
+		CSS of Qualifications
+		CSS of Projects
+		CSS of Service
+-->
+
+
+
+
 <body>
-	<div class="navi-bar">
+	<div class="navi-bar row">
+		<h1 class="p-5 col-lg-3 col-md-2">Dexter White</h1>
+		<nav class="d-flex pb-3 col-lg-6 col-md-6 mt-4 p-5">
+			<div class="container">
+			<div class="col text-center">
+				<div class="btn-group btn-group-lg text-center" role="group" aria-label="Navigation Bar Buttons">
+				<a href="index.html" class="btn button_1 darken active" role="button" aria-pressed="true">Home</a>
+				<a href="portfolio.html" class="btn button_1 darken active" role="button" aria-pressed="true">Portfolio</a>
+				<a href="qualifications.html" class="btn button_1 darken active" role="button" aria-pressed="true">Qualifications</a>
+				<a href="service.html" type="button" class="btn button_1 darken active" role="button" aria-pressed="true">Service</a>
+				</div>
+			</div>
+			</div>
+		</nav>
+		<div class="d-flex col-lg-3 col-md-4 pt-5 pe-5 pe-md-4 justify-content-end">
+			<ul>
+				<li>Button 1</li>
+				<li>Button 2</li>
+				<li>Button 3</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- <div class="navi-bar">
 		<h1 class="p-5">Dexter White</h1>
 		<nav class="pb-3">
 			<div class="container">
@@ -25,10 +69,11 @@
 			</div>
 			</div>
 		</nav>
-	</div>
+	</div> -->
+
   <div class="row justify-content-around text-center my-5">
     <div class="col-4">
-	  <img class="img-fluid profile-pic" src="FaceShot.jpg" alt="Picture of Me">
+	  <img class="img-fluid profile-pic" src="Static/FaceShot.jpg" alt="Picture of Me">
     </div>
     <div class="col-4 d-flex align-items-center border border-3 boxed">
 	<figure>
