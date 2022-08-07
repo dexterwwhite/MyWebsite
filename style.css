@@ -2,6 +2,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: black;
   background-color: #AAD0D8;
+  /* background-image: url('Static/bg.jpg');
+  opacity: .3; */
 }
 
 h1 {
@@ -107,3 +109,8 @@ h1 {
 	/* background-color: #113E3D; */
 	/* color: #4DC9C4; */
 /* } */
+
+/* .bg-pic {
+  background-image: url('Static/bg.jpg');
+  opacity: .6;
+} */
