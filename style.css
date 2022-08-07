@@ -24,8 +24,9 @@ nav {
 
 h1 {
   text-align: center;
-  font-size: 3rem;
-  margin: .5rem 0;
+  font-size: 4rem;
+  padding: .5rem 0 0 0;
+  color: #2B4C59;
 }
 
 .navigation {
@@ -74,6 +75,16 @@ h1 {
   padding: 0 1rem;
 }
 
+.qual-card {
+  background-color: #FCDCDC;
+  color: #2B4C59;
+  box-shadow: 0 0 1rem .1rem #DCC1C1 inset, 0 0 1rem .25rem #1C323A;
+  border-radius: .5rem;
+  padding: .5rem;
+  margin: 0 0 1.5rem 0;
+  font-size: 1.5rem;
+}
+
 @media screen and (max-width: 1850px) {
   .home-page-card-header {
     font-size: 2.5rem;
@@ -81,6 +92,18 @@ h1 {
 
   .home-page-card-body {
     font-size: 1.1rem;
+  }
+
+  .qual-card {
+    font-size: 1.3rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.6rem;
   }
 }
 
@@ -102,6 +125,18 @@ h1 {
   .home-page-card-body {
     font-size: .9rem;
   }
+
+  .qual-card {
+    font-size: 1.1rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
 }
 
 @media screen and (max-width: 1400px) {
@@ -113,17 +148,21 @@ h1 {
     font-size: 1rem;
   }
 
-  .header-name {
+  .header-name, h1 {
     font-size: 3rem;
   }
 
   .nav-button {
     font-size: 1.5rem;
   }
+
+  .qual-card {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 1125px) {
-  .header-name {
+  .header-name, h1 {
     font-size: 2rem;
   }
 
@@ -133,7 +172,7 @@ h1 {
 }
 
 @media screen and (max-width: 800px) {
-  .header-name {
+  .header-name, h1 {
     font-size: 1.5rem;
   }
 
@@ -143,7 +182,7 @@ h1 {
 }
 
 @media screen and (max-width: 650px) {
-  .header-name {
+  .header-name, h1 {
     font-size: 1rem;
   }
 

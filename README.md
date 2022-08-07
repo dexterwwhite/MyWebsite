@@ -9,7 +9,9 @@ Goals for my website: <br/>
 	5. Update footer -- FOOTER REMOVED <br/>
 	6. Finalize HTML/styling of Home page -- COMPLETE <br/>
 	7. Finalize HTML/styling of Portfolio page <br/>
-	8. Finalize HTML/styling of Qualifications page <br/>
-	9. Finalize HTML/styling of Service page <br/>
-	10. Create Portofilio Project page template <br/>
-	11. Create project pages for each portfolio project <br/>
+	8. Finalize HTML/styling of Qualifications page -- COMPLETE <br/>
+	9. Finalize HTML/styling of Interests page <br/>
+    10. Update Resume and add to Qualifications page <br/>
+    11. Record video showing website changes and add to Portfolio page <br/>
+	12. Create Portofilio Project page template <br/>
+	13. Create project pages for each portfolio project <br/>
