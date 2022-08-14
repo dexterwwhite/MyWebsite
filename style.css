@@ -32,7 +32,7 @@ h1 {
 .navigation {
   background-color: #2B4C59;
   z-index: 1;
-  box-shadow: 0 0 1rem .1rem #1D3A45 inset, 0 0 2rem .1rem dimgray;
+  box-shadow: 0 0 1rem .1rem #1D3A45 inset, 0 0 1rem .25rem #1C323A;
   color: #FCDCDC;
   position: relative;
 }
@@ -75,12 +75,22 @@ h1 {
   padding: 0 1rem;
 }
 
-.qual-card {
+.pink-card {
   background-color: #FCDCDC;
   color: #2B4C59;
   box-shadow: 0 0 1rem .1rem #DCC1C1 inset, 0 0 1rem .25rem #1C323A;
   border-radius: .5rem;
-  padding: .5rem;
+  padding: 1rem;
+  margin: 0 0 1.5rem 0;
+  font-size: 1.5rem;
+}
+
+.blue-card {
+  background-color: #2B4C59;
+  color: #FCDCDC;
+  box-shadow: 0 0 1rem .1rem #1C323A inset, 0 0 1rem .25rem #1C323A;
+  border-radius: .5rem;
+  padding: 1rem;
   margin: 0 0 1.5rem 0;
   font-size: 1.5rem;
 }
@@ -94,7 +104,7 @@ h1 {
     font-size: 1.1rem;
   }
 
-  .qual-card {
+  .pink-card {
     font-size: 1.3rem;
   }
 
@@ -126,7 +136,7 @@ h1 {
     font-size: .9rem;
   }
 
-  .qual-card {
+  .pink-card {
     font-size: 1.1rem;
   }
 
@@ -156,7 +166,7 @@ h1 {
     font-size: 1.5rem;
   }
 
-  .qual-card {
+  .pink-card {
     font-size: 1rem;
   }
 }
