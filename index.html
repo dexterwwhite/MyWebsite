@@ -1,147 +1,69 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-<head>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-<title>Dexter's Website: Home</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-</head>
+	<head>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+		<title>Dexter White: Home</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	</head>
 
-<!--
-	GOALS:
-	Add all projects to portfolio
-	Update HTML of qualifications page
-	Update HTML of service page
-	Update nav bar for each page
-	Add footer to each page
-
-	Make generic "Project Page" template
-	Make pages for each project
-
-	FINALLY, do CSS:
-		CSS of Home
-		CSS of Qualifications
-		CSS of Projects
-		CSS of Service
--->
-
-
-
-
-<body>
-	<div class="navi-bar row">
-		<h1 class="p-5 col-lg-3 col-md-2">Dexter White</h1>
-		<nav class="d-flex pb-3 col-lg-6 col-md-6 mt-4 p-5">
-			<div class="container">
-			<div class="col text-center">
-				<div class="btn-group btn-group-lg text-center" role="group" aria-label="Navigation Bar Buttons">
-				<a href="index.html" class="btn button_1 darken active" role="button" aria-pressed="true">Home</a>
-				<a href="portfolio.html" class="btn button_1 darken active" role="button" aria-pressed="true">Portfolio</a>
-				<a href="qualifications.html" class="btn button_1 darken active" role="button" aria-pressed="true">Qualifications</a>
-				<a href="service.html" type="button" class="btn button_1 darken active" role="button" aria-pressed="true">Service</a>
+	<body>
+		<!-- NavBar -->
+		<div class="container-fluid navigation">
+			<div class="row">
+				<div class="col-4 px-5 py-3">
+					<div class="header-name">
+						Dexter White
+					</div>
+				</div>
+				<div class="col-8 d-flex justify-content-center">
+					<nav>
+						<a href="index.html" type="button" class="btn nav-button" role="button" aria-pressed="true">Home</a>
+						<a href="portfolio.html" type="button" class="btn nav-button" role="button" aria-pressed="true">Portfolio</a>
+						<a href="qualifications.html" type="button" class="btn nav-button" role="button" aria-pressed="true">Qualifications</a>
+						<a href="interests.html" type="button" class="btn nav-button" role="button" aria-pressed="true">Interests</a>
+						<a href="https://www.linkedin.com/in/dexterwwhite/" type="button" class="btn nav-button" role="button" aria-pressed="true" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+						<a href="https://github.com/dexterwwhite" type="button" class="btn nav-button" role="button" aria-pressed="true" target="_blank" rel="noopener noreferrer">GitHub</a>
+					</nav>
 				</div>
 			</div>
-			</div>
-		</nav>
-		<div class="d-flex col-lg-3 col-md-4 pt-5 pe-5 pe-md-4 justify-content-end">
-			<ul>
-				<li>Button 1</li>
-				<li>Button 2</li>
-				<li>Button 3</li>
-			</ul>
 		</div>
-	</div>
 
-	<!-- <div class="navi-bar">
-		<h1 class="p-5">Dexter White</h1>
-		<nav class="pb-3">
-			<div class="container">
-			<div class="col text-center">
-				<div class="btn-group btn-group-lg text-center" role="group" aria-label="Navigation Bar Buttons">
-				<a href="index.html" class="btn button_1 darken active" role="button" aria-pressed="true">Home</a>
-				<a href="portfolio.html" class="btn button_1 darken active" role="button" aria-pressed="true">Portfolio</a>
-				<a href="qualifications.html" class="btn button_1 darken active" role="button" aria-pressed="true">Qualifications</a>
-				<a href="service.html" type="button" class="btn button_1 darken active" role="button" aria-pressed="true">Service</a>
+		<!-- Body of Page -->
+		<div class="background container-fluid py-5">
+			<div class="row justify-content-around">
+				<div class="col-xxl-4 col-8">
+					<img class="img-fluid home-page-card" src="Static/FaceShot.jpg" alt="Picture of Me">
+				</div>
+				<div class="col-xxl-4 col-8 mt-xxl-0 mt-4 home-page-card">
+					<h2 class="home-page-card-header">About Me</h2>
+					<p class="home-page-card-body">
+						Hello! My name is Dexter White and I am a senior computer science major currently attending Texas 
+						A&M University. I am also pursuing a minor in cybersecurity as well! It feels like I have been 
+						interested in computer science for my whole life, but this field really became more than a hobby 
+						in my junior year of highschool when I took my first computer science class. Since then, I have 
+						gotten so much more exciting and valuable experience during my time as both a computer science 
+						major at Texas A&M as well as a software engineering intern at Visa!
+					</p>
+					<p class="home-page-card-body">
+						A bit more about me is that I don't keep my passion for computer science limited to solely what 
+						I learn in the classroom. I am always trying to find ways to learn and try new concepts and technologies, 
+						as well as share my knowledge with others! One way I have achieved this is through my position as 
+						a teaching assistant under Dr. Martin Carlisle, a professor of practice at Texas A&M. Working as a 
+						teaching assistant not only allows me to reinforce my knowledge of past computer science topics I 
+						have learned, but it also allows me to share my love of the field with other, newer students! 
+						Additionally, I really enjoy working on personal projects as well as attending hackathons in my 
+						spare time. A little fun fact is that my team and I actually won second place at the 2021 
+						TAMUhack hackathon!
+					</p>
 				</div>
 			</div>
-			</div>
-		</nav>
-	</div> -->
+		</div>
 
-  <div class="row justify-content-around text-center my-5">
-    <div class="col-4">
-	  <img class="img-fluid profile-pic" src="Static/FaceShot.jpg" alt="Picture of Me">
-    </div>
-    <div class="col-4 d-flex align-items-center border border-3 boxed">
-	<figure>
-	  <blockquote class="blockquote">
-		<p>"Today I escaped anxiety. Or no, I discarded it, because it was within me, in my own perceptions - not outside."</p>
-	  </blockquote>
-	  <figcaption class="blockquote-footer">
-		Marcus Aurelius, <cite title="Source Title">Meditations</cite>
-	  </figcaption>
-	</figure>
-    </div>
-  </div>
-  <div class="container text-center">
-    <p><h1>About Me</h1></p>
-  </div>
-  <div class="container mb-4">
-    <div class="row justify-content-center">
-      <div class="col-6 text-center border border-3 boxed">
-	    <p class="my-2">Hello! My name is <a href="https://www.linkedin.com/in/dexterwwhite/">Dexter White</a> 
-	      and I am a junior computer science major currently attending Texas A&M university! I am also pursuing 
-		  a minor in cybersecurity as well! If I had to describe myself in only three words, I would definitely 
-		  choose the adjectives: positive, driven, and comedic.
-		<p>
-			It feels like I have been interested in computer science for my whole life, but this field really 
-			became more than a hobby in my junior year of highschool when I took my first computer science class. 
-			Working with Java and learning the basics of computer science really captivated me and made me 
-			realize just how interesting programming and the broader field of computer science was. Since then, 
-			I have gotten so much more exciting and valuable experience during my time as a computer science 
-			major at Texas A&M!
-		</p>
-	    <p>
-			Some more facts about me are that I don't keep my passion for computer science limited to solely what 
-			I learn in the classroom! I am always trying to find ways to learn and try new concepts and technologies, 
-			as well as share my knowledge with others. One way I have achieved this is through my position as 
-			a teaching assistant under Dr. Martin Carlisle, a professor of practice at Texas A&M. Working as a 
-			teaching assistant not only allows me to reinforce my knowledge of past computer science topics I 
-			have learned, but it also allows me to share my love of the field with other, younger students! 
-			Additionally, I really enjoy working on personal projects as well as attending hackathons in my 
-			spare time. A little fun fact is that my team and I actually won second place at the 2021 
-			TAMUhack hackathon!
-	    </p>
-	    <p>
-			I would also describe myself as hardworking as well as someone who thrives in a team environment. 
-			I really enjoy working on group projects as these not only allow me to create projects on a 
-			scale that would be much harder to achieve on my own, but they also allow me to learn from my 
-			other team members. While I do pride myself on my knowledge of a areas within computer science, 
-			there are always those that know more than me and it is a great privilege to be able to learn from 
-			them! This is a main part of the reason that I strongly desire the opportunity to work as a software 
-			engineering intern. I do currently have a summer 2022 software engineering internship with Visa, 
-			and I am very excited to get enterprise-level experience as well as work with the many  
-			brilliant minds there. Additionally, I am also looking for potential Fall 2022 and/or Spring 2023 
-			software engineering internship opportunities for these same reasons. The prospect of being 
-			given the opportunity to get actual on the job experience and learn from those that are smarter 
-			than me is invaluable, and I would really love to have the chance to do this!
-	    </p>
-	  </div>
-	</div>
-  </div>
-  <div class="my-footer">
-	  <h2>Check out my links!</h2>
-	  <ul>
-		  <li>LinkedIn</li>
-		  <li>Github</li>
-	  </ul>
-  </div>
-
-  <script src="functions.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-
-</body>
+		<script src="functions.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+	</body>
 </html>

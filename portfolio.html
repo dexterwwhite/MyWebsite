@@ -1,221 +1,203 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-<head>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css">
-<title>Dexter's Website: Portfolio</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-</head>
+	<head>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+		<title>Dexter White: Portfolio</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	</head>
 
-<p style="font-family:verdana; font-size:40px" align="center"><font color="#FFFFFF";">Dexter White's Website</p>
-
-<nav>
-  <div class="container">
-	<div class="col text-center">
-	  <div class="btn-group btn-group-lg text-center" role="group" aria-label="Navigation Bar Buttons">
-		<a href="index.html" class="btn button_1 darken active" role="button" aria-pressed="true">Home</a>
-		<a href="portfolio.html" class="btn button_1 darken active" role="button" aria-pressed="true">Portfolio</a>
-		<a href="qualifications.html" class="btn button_1 darken active" role="button" aria-pressed="true">Qualifications</a>
-		<a href="service.html" type="button" class="btn button_1 darken active" role="button" aria-pressed="true">Service</a>
-	  </div>
-	</div>
-  </div>
-</nav>
-
-<body>
-  <p class="my-3" align="center">
-    <button type="button" onclick="changeBackgroundColor()" class="btn btn-dark">Night-Mode</button>
-  </p>
-
-  <h1 align="center">
-    My Portfolio
-  </h1>
-
-	<div class="d-flex justify-content-center">
-	<ul class="list-group col-6">
-		<li class="list-group-item">
-			<h2>Nutritist</h2>
-			<div class="d-flex justify-content-center">
-				<div class="embed-responsive embed-responsive-16by9">
-					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XtTWLy2xVaE" title="Nutritist Introduction Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<body>
+		<!-- NavBar -->
+		<div class="container-fluid navigation">
+			<div class="row">
+				<div class="col-4 px-5 py-3">
+					<div class="header-name">
+						Dexter White
+					</div>
+				</div>
+				<div class="col-8 d-flex justify-content-center">
+					<nav>
+						<a href="index.html" type="button" class="btn nav-button" role="button" aria-pressed="true">Home</a>
+						<a href="portfolio.html" type="button" class="btn nav-button" role="button" aria-pressed="true">Portfolio</a>
+						<a href="qualifications.html" type="button" class="btn nav-button" role="button" aria-pressed="true">Qualifications</a>
+						<a href="interests.html" type="button" class="btn nav-button" role="button" aria-pressed="true">Interests</a>
+						<a href="https://www.linkedin.com/in/dexterwwhite/" type="button" class="btn nav-button" role="button" aria-pressed="true" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+						<a href="https://github.com/dexterwwhite" type="button" class="btn nav-button" role="button" aria-pressed="true" target="_blank" rel="noopener noreferrer">GitHub</a>
+					</nav>
 				</div>
 			</div>
-			<ul>
-				<li>
-					<a href="https://github.tamu.edu/santoshnibirlangi/nutritist">Nutritist Github repo</a>
+		</div>
+
+		<!-- Body of Page -->
+		<div class="background">
+			<h1>Portfolio</h1>
+			<div class="d-flex justify-content-center">
+			<ul class="list-group col-6">
+				<li class="list-group-item pink-card">
+					<h2>Nutritist</h2>
+					<div class="d-flex justify-content-center">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XtTWLy2xVaE" title="Nutritist Introduction Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+					</div>
+					<p>
+						Nutritist is a nutrition website that I and four other group members worked on together with the 
+						use of the Agile software development methodology. This web application was built with the use of 
+						HTML, CSS, JavaScript, Python Flask, and PostgreSQL. Additionally, our group utilized 3 different 
+						APIs from Edamam in order to add functionality to many of the aspects of our website. My main 
+						contributions were to the Tracking, Recipe Recommendation, and the Home pages. Additionally, a 
+						large portion of my work was on the integration of our database and APIs' input and output on to 
+						our user interface.
+					</p>
+					<a href="https://github.tamu.edu/santoshnibirlangi/nutritist" target="_blank" rel="noopener noreferrer">View the Nutritist Github repo!</a>
+					<!-- <a href="Portfolio/nutritist.html">Click here to read more about Nutritist!</a> -->
 				</li>
-				<li>
-					<a href="https://nutritist.herokuapp.com/index.html">Older prototype of Nutritist</a>
+				<li class="list-group-item pink-card">
+					<h2>Highly Available Distributed Social Networking Service</h2>
+					<p>
+						My highly available social networking service is a social networking service that is meant to never 
+						go down! Consisting of 3 server clusters (that each consist of 2 servers and a synchronizer) as well 
+						as a coordinator, this service is highly scalable, available, and synchronized. This project was built 
+						with C++ and with the use of gRPC. Additionally, it utilizes several different distributed systems concepts 
+						in order to maintain its availability and synchronization. This project was very challenging, yet 
+						very rewarding due to the complexity of the concepts used.
+					</p>
+					<a href="https://github.com/dexterwwhite/CSCE438/tree/main/MP3" target="_blank" rel="noopener noreferrer">View the highly available distributed SNS GitHub repo!</a>
+					<!-- <a href="Portfolio/distributed-sns.html">Click here to read more about my highly available distributed social networking service!</a> -->
+				</li>
+				<li class="list-group-item pink-card">
+					<h2>eyeTrain</h2>
+					<div align="center">
+						<img class="img-fluid eyetrain" src="Static/eyetrain.png" alt="eyeTrain Logo">
+					</div>
+					<p>
+						EyeTrain is an eye-tracking rhythm game that was made by 3 other students and I for the 
+						<a href="https://tamuhack.com/th">TAMUhack</a> 
+						2021 hackathon. This project was built with Python, Pygame, openCV, and dlib as well as 
+						the open source gaze_tracking library. My main contributions were to the Pygame interface, 
+						or more specifically the music/object interaction, collisions, and gameplay. And guess what? 
+						<strong>This project won us second place at the hackathon!</strong>
+					</p>
+					<a href="https://devpost.com/software/eyetrain" target="_blank" rel="noopener noreferrer">View the eyeTrain devpost!</a>
+					<!-- <a href="Portfolio/eyetrain.html">Click here to read more about eyeTrain!</a> -->
+				</li>
+				<li class="list-group-item pink-card">
+					<h2>This website</h2>
+					<div class="d-flex justify-content-center">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0ZpabWjTMn4" title="Personal Website Comparison" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+					</div>
+					<p>
+						This website is also one of my personal projects! While the first iteration of my 
+						personal website was actually my first attempt at using HTML in my life, what you 
+						are currently looking at is a profusely updated second version. This website was 
+						built with HTML, CSS, JavaScript, and Bootstrap. Additionally, another goal of 
+						mine for this project has been to utilize the enterprise-level git practices I 
+						learned at Visa, which can be seen on this project's GitHub repository!
+					</p>
+					<a href="https://github.com/dexterwwhite/MyWebsite" target="_blank" rel="noopener noreferrer">View this website's GitHub repo!</a>
+					<!-- <a href="Portfolio/mywebsite.html">Click here to read more about this website!</a> -->
+				</li>
+				<li class="list-group-item pink-card">
+					<h2>Content Streaming Service GUI</h2>
+					<p>
+						This project was meant to mimic a content streaming service, and was built by my 3 partners 
+						and I using the Waterfall software development methodology. We built this project using Java, 
+						Java Swing, and a PostgreSQL database. Using a table that consisted of over 20000 rows of 
+						content as well as almost an equally large number of users, my team and I created algorithms 
+						that would mimic the algorithms of an actual content streaming service. One of my key additions 
+						was the implementation of the "Director's Choice" algorithm, which utilized several different 
+						queries and functions in order to make a recommendation to a user!
+					</p>
+					<a href="https://github.tamu.edu/wyattsmith/CSCE315_Project2" target="_blank" rel="noopener noreferrer">View the content streaming service GUI's GitHub repo!</a>
+					<!-- <a href="Portfolio/contentstream.html">Click here to read more about the Content Streaming Service GUI!</a> -->
+				</li>
+				<li class="list-group-item pink-card">
+					<h2>Calming Planner</h2>
+					<p>
+						The Calming Planner is a dementia-accessible planner mobile application that I created along 
+						with 3 other partners. Our main goal for this application was making it as accessible as 
+						possible to those with dementia, as well as following general accessibility guidelines 
+						throughout. This mobile application was designed with React Native as well as utilized an 
+						SQLite database. My role in the group was mainly focused on the database features as well as 
+						initial setup.
+					</p>
+					<a href="https://github.com/dexterwwhite/calming-planner" target="_blank" rel="noopener noreferrer">View Calming Planner's GitHub repo!</a>
+					<!-- <a href="Portfolio/calming-planner.html">Click here to read more about my calming planner!</a> -->
+				</li>
+				<li class="list-group-item pink-card">
+					<h2>Accessible Collection</h2>
+					<p>
+						Throughout my time taking the class Accessible Computing, I was given the opportunity to work 
+						on several different accessible projects. While my calming planner might have been my most 
+						complex accessible project, these webpages also succeed in the field of accessibility! 
+						The main goal of these webpages is to be as widely accessible as possible and to ensure 
+						people with disabilities are able to experience equity when viewing these pages.
+					</p>
+					<!-- <ul>
+						<li>
+							<a href="https://people.tamu.edu/~dexterwwhite/web-bio.html" target="_blank" rel="noopener noreferrer">View my accessible web-bio!</a>
+						</li>
+						<li>
+							<a href="https://people.tamu.edu/~dexterwwhite/infographic.html" target="_blank" rel="noopener noreferrer">View my accessible infographic!</a>
+						</li>
+					</ul> -->
+					<a href="https://people.tamu.edu/~dexterwwhite/web-bio.html" target="_blank" rel="noopener noreferrer">View my accessible web-bio!</a>
+					<!-- <a href="Portfolio/accessible.html">Click here to read more about my accessible webpages!</a> -->
+				</li>
+				<li class="list-group-item pink-card">
+					<h2>Distributed Collection</h2>
+					<p>
+						To this day, my distributed systems class has been one of the most challenging classes I 
+						have taken. Even though it was a hard class, the lessons I learned were irreplaceable and 
+						provided me with a good look into the world of distributed systems. The main project of 
+						this class was the highly available distributed SNS project, but the other projects in 
+						the course are noteworthy as well. The topics of these projects include a socket-based 
+						chatroom service, usage of gRPC remote procedure calls, and a Hadoop Distributed File System 
+						MapReduce application.
+					</p>
+					<ul>
+						<li>
+							<a href="https://github.com/dexterwwhite/CSCE438/tree/main/MP1" target="_blank" rel="noopener noreferrer">View the socket-based chatrooms' GitHub repo!</a>
+						</li>
+						<li>
+							<a href="https://github.com/dexterwwhite/CSCE438/tree/main/MP5" target="_blank" rel="noopener noreferrer">View the HDFS MapReduce application's GitHub repo!</a>
+						</li>
+					</ul>
+					<!-- <a href="Portfolio/distributed-collection.html">Click here to read more about my work with sockets!</a> -->
+				</li>
+				<li class="list-group-item pink-card">
+					<h2>Miscellaneous Projects</h2>
+					<p>
+						I additionally have a few more smaller projects within my portfolio that do a good job of 
+						emphasizing my passion for trying new technologies. I really enjoy testing out different 
+						programming languages and frameworks, and these miscellaneous projects are a culmination 
+						of that passion. These projects include a ReactJs and Spring Boot based social media 
+						platform, a NextJs reimagining of my personal website, and a random-number based baby 
+						name generator written in C++. These projects really do represent my drive to learn 
+						and experience as much as possible within the realm of computer science!
+					</p>
+					<ul>
+						<li>
+							<a href="https://github.com/dexterwwhite/social-dex" target="_blank" rel="noopener noreferrer">View the Social-Dex GitHub repo!</a>
+						</li>
+						<li>
+							<a href="https://github.com/dexterwwhite/personal-website" target="_blank" rel="noopener noreferrer">View my NextJS personal website's GitHub repo!</a>
+						</li>
+						<li>
+							<a href="https://github.com/dexterwwhite/BabyNameGenerator" target="_blank" rel="noopener noreferrer">View my baby name generator's GitHub repo!</a>
+						</li>
+					</ul>
+					<!-- <a href="Portfolio/misc.html">Click here to read more about my miscellaneous projects!</a> -->
 				</li>
 			</ul>
-			<p>
-				Nutritist is a nutrition website that I and four other group members worked on together with the 
-				use of the Agile software development methodology. This web application was built with the use of 
-				HTML, CSS, JavaScript, Python Flask, and PostgreSQL. Additionally, our group utilized 3 different 
-				APIs from Edamam in order to add functionality to many of the aspects of our website. My main 
-				contributions were to the Tracking, Recipe Recommendation, and the Home pages. Additionally, a 
-				large portion of my work was on the integration of our database and APIs' input and output on to 
-				our user interface.
-			</p>
-			<a href="Portfolio/nutritist.html">Click here to read more about Nutritist!</a>
-		</li>
-		<li class="list-group-item">
-			<h2>Highly Available Distributed Social Network Service</h2>
-			<div>
-				<img class="img-fluid rounded" src="Static/eyetrain.png" alt="eyeTrain Logo">
 			</div>
-			<ul>
-				<li>
-					<a href="https://devpost.com/software/eyetrain">Click here for the eyeTrain devpost</a>
-				</li>
-			</ul>
-			<p>
-				EyeTrain is an eye-tracking rhythm game that was made by 3 other students and I for the 
-	    	<a href="https://tamuhack.com/th">TAMUhack</a> 
-	    	2021 hackathon. This project was built with Python, Pygame, openCV, and dlib as well as 
-				the open source gaze_tracking library. And guess what? 
-				<strong>This project won us second place at the hackathon!</strong>
-			</p>
-			<a href="Portfolio/eyetrain.html">Click here to read more about eyeTrain!</a>
-		</li>
-		<li class="list-group-item">
-			<h2>eyeTrain</h2>
-			<div>
-				<img class="img-fluid rounded" src="Static/eyetrain.png" alt="eyeTrain Logo">
-			</div>
-			<ul>
-				<li>
-					<a href="https://devpost.com/software/eyetrain">Click here for the eyeTrain devpost</a>
-				</li>
-			</ul>
-			<p>
-				EyeTrain is an eye-tracking rhythm game that was made by 3 other students and I for the 
-	    	<a href="https://tamuhack.com/th">TAMUhack</a> 
-	    	2021 hackathon. This project was built with Python, Pygame, openCV, and dlib as well as 
-				the open source gaze_tracking library. And guess what? 
-				<strong>This project won us second place at the hackathon!</strong>
-			</p>
-			<a href="Portfolio/eyetrain.html">Click here to read more about eyeTrain!</a>
-		</li>
-		<li class="list-group-item">
-			<h2>This website</h2>
-			<ul>
-				<li>
-					<a href="https://github.com/dexterwwhite/MyWebsite">Click here for this website's Github repo</a>
-				</li>
-			</ul>
-			<p>
-				This website is also one of my personal projects! While the first iteration of my 
-				personal website was actually my first attempt at using HTML in my life, what you 
-				are currently looking at is a profusely updated second version. This website was 
-				built with HTML, CSS, JavaScript, and Bootstrap.
-			</p>
-			<a href="Portfolio/mywebsite.html">Click here to read more about this website!</a>
-		</li>
-		<li class="list-group-item">
-			<h2>Content Streaming Service GUI</h2>
-			<ul>
-				<li>
-					<a href="https://github.tamu.edu/wyattsmith/CSCE315_Project2">Click here for the GUI's Github repo</a>
-				</li>
-			</ul>
-			<p>
-				Hey
-			</p>
-			<a href="Portfolio/contentstream.html">Click here to read more about the Content Streaming Service GUI!</a>
-		</li>
-		<li class="list-group-item">
-			<h2>Accessible Collection</h2>
-			<ul>
-				<li>Link to Github repo</li>
-			</ul>
-			<p>
-				Hey
-			</p>
-			<a href="Portfolio/accessible.html">Click here to read more about my accessible webpages!</a>
-		</li>
-		<li class="list-group-item">
-			<h2>Chatrooms/Client and Server (Sockets)</h2>
-			<ul>
-				<li>Link to Chatrooms (UNAVAILABLE)</li>
-				<li>Link to Client and Server</li>
-			</ul>
-			<p>
-				Hey
-			</p>
-			<a href="Portfolio/sockets.html">Click here to read more about my work with sockets!</a>
-		</li>
-		<li class="list-group-item">
-			<h2>Miscellaneous Projects</h2>
-			<ul>
-				<li>Link to Tiny SNS Service (gRPC) Github Repo</li>
-				<li>Link to React/REST To-do List Github Repo</li>
-				<li>Link to Baby Name Generator Repo</li>
-			</ul>
-			<p>
-				Hey
-			</p>
-			<a href="Portfolio/misc.html">Click here to read more about my miscellaneous projects!</a>
-		</li>
-	</ul>
-	</div>
+		</div>
 
-  <dl class="row" style="margin-left: 100px; margin-right: 100px; font-size: 20px;">
-		<dt class="col-sm-3"">
-      Nutritist
-			
-		</dt>
-    <dd class="col-sm-9"">
-      While the idea of this was initially a joke with my girlfriend, I began to actually enjoy working on
-	  this project later on! The main goal of this program is to repeatedly generate randomized baby names
-	  through the use of python's randint() function to randomly add letters and create a "name". Starting
-	  out, the names generated were not really "names", but as I worked on my algorithm more and more the 
-	  names eventually began to mimic real names.
-    </dd>
+		<script src="functions.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 
-		<dt class="col-sm-3" style="margin-top: 20px;">This website!</dt>
-    <dd class="col-sm-9" style="margin-top: 20px;">
-      This website itself is one of my projects! As I learn more about web development and begin numerous
-	  more projects, I plan to add on to this website whenever I can!
-    </dd>
-
-    <dt class="col-sm-3">
-	  
-    </dt>
-    <dd class="col-sm-9">
-      <p><h3><a href="https://devpost.com/software/eyetrain">eyeTrain</a></h3></p>
-	  <p>eyeTrain is a project that I co-created with Pranav Jain, Patrick Apgar, and Austin Ramirez.
-	    This project was made for the 
-	    <a href="https://tamuhack.com/th">TAMUhack</a> 
-	    2021 hackathon. It is essentially a rhythm game in which
-	    the only way you can interact with the game is through the use of your eyes. Our mission was to
-	    create a game that would help with the strain of staring at screens all day long that became much
-	    more prevalent than ever due to Covid19. This goal is accomplished through the fact that playing the
-	    game actually exercises your eyes, which helps with eye strain. This project was written in python, and
-	    my work mainly consisted of the coding of the game interface and gameplay. 
-	  </p>
-    </dd>
-
-		<dt class="col-sm-3" style="margin-top: 20px;">This website!</dt>
-    <dd class="col-sm-9" style="margin-top: 20px;">
-      This website itself is one of my projects! As I learn more about web development and begin numerous
-	  more projects, I plan to add on to this website whenever I can!
-    </dd>
-
-    <dt class="col-sm-3" style="margin-top: 20px;">
-      Baby Name Generator
-	</dt>
-    <dd class="col-sm-9" style="margin-top: 20px;">
-      While the idea of this was initially a joke with my girlfriend, I began to actually enjoy working on
-	  this project later on! The main goal of this program is to repeatedly generate randomized baby names
-	  through the use of python's randint() function to randomly add letters and create a "name". Starting
-	  out, the names generated were not really "names", but as I worked on my algorithm more and more the 
-	  names eventually began to mimic real names.
-    </dd>
-  </dl>
-
-  <script src="functions.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-
-</body>
+	</body>
 </html>
