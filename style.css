@@ -95,6 +95,17 @@ h1 {
   font-size: 1.5rem;
 }
 
+.list-group > .pink-card {
+  border-radius: 1rem;
+}
+
+.eyetrain {
+  width: 25%;
+  position: relative;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem .1rem #1C323A;
+}
+
 @media screen and (max-width: 1850px) {
   .home-page-card-header {
     font-size: 2.5rem;
