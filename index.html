@@ -5,6 +5,10 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+		<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
 		<link rel="stylesheet" href="style.css">
 		<title>Dexter White: Home</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
@@ -34,11 +38,9 @@
 
 		<!-- Body of Page -->
 		<div class="background container-fluid py-5">
-			<div class="row justify-content-around">
-				<div class="col-xxl-4 col-8 home-page-div">
-					<img class="img-fluid home-page-image" src="Static/FaceShot.jpg" alt="Picture of Me">
-				</div>
-				<div class="col-xxl-7 col-8 home-page-div">
+			<div class="row justify-content-evenly">
+				
+				<div class="col-xxl-6 col-8 home-page-div">
 					<div class="home-page-card">
 						<h2 class="home-page-card-header">About Me</h2>
 						<p class="home-page-card-body">
@@ -55,38 +57,54 @@
 							Here is a brief overview of my experience:
 						</p>
 						<ul class="home-page-card-list">
-							<li>Software Engineer, Visa: June 2023 - Present</li>
-							<li>Software Engineering Intern, Visa: May 2022 - August 2022</li>
-							<li>Computer Science Teaching Assistant, Texas A&M University: September 2021 - December 2022</li>
+							<li><i class="fa-brands fa-cc-visa fa-2x bisa-icon"></i> Software Engineer, Visa: June 2023 - Present</li>
+							<li><i class="fa-brands fa-cc-visa fa-2x bisa-icon"></i> Software Engineering Intern, Visa: May 2022 - August 2022</li>
+							<li><i class="fa-solid fa-graduation-cap fa-2x college-icon"></i> Computer Science Teaching Assistant, Texas A&M University: September 2021 - December 2022</li>
+							<li><i class="fa-solid fa-graduation-cap fa-2x college-icon"></i> Bachelors of Science in Computer Science, Texas A&M University: August 2019 - May 2023</li>
 						</ul>
 						<p class="home-page-card-body">
 							Over these years I have built up expertise in the following skills:
 						</p>
 						<ul class="home-page-card-list home-page-card-list-skills">
-							<li>Java</li>
-							<li>Spring Boot</li>
-							<li>ReactJS</li>
-							<li>Microsoft SQL Server</li>
-							<li>Jenkins</li>
-							<li>Kubernetes</li>
-							<li>c++</li>
-							<li>Python</li>
+							<li><i class="devicon-java-plain colored hp-skill-icon"></i> Java</li>
+							<li><i class="devicon-spring-original colored hp-skill-icon"></i> Spring Boot</li>
+							<li><i class="devicon-react-original colored hp-skill-icon"></i> ReactJS</li>
+							<li><i class="devicon-microsoftsqlserver-plain colored hp-skill-icon"></i> Microsoft SQL Server</li>
+							<li>
+								<i class="devicon-jenkins-line hp-skill-icon"></i> 
+								Jenkins
+							</li>
+							<li>
+								<i class="devicon-kubernetes-plain colored hp-skill-icon"></i>
+							    Kubernetes</li>
+							<li>
+								<i class="devicon-cplusplus-plain colored hp-skill-icon"></i>
+								c++
+							</li>
+							<li>
+								<i class="devicon-python-plain hp-skill-icon"></i>
+								Python
+							</li>
 						</ul>
 						<p class="home-page-card-body">Please click here to read more about my experience!</p>
 					</div>
+				</div>
+
+				<div class="col-xxl-2 col-8 home-page-div">
+					<img class="img-fluid home-page-image" src="Static/FaceShot.jpg" alt="Picture of Me">
 					<div class="home-page-card">
 						<h2 class="home-page-card-header">My Links</h2>
-						<p class="home-page-card-body">
-							Please check out some of my important links:
-						</p>
-						<ul class="home-page-card-list home-page-card-list-links">
-							<li>LinkedIn</li>
-							<li>GitHub</li>
-							<li>My Resume</li>
-							<li>You</li>
-						</ul>
+						<div class="hp-card-links">
+							<ul class="home-page-card-list home-page-card-list-links">
+								<li>LinkedIn<i class="fa-brands fa-linkedin"></i></li>
+								<li>GitHub<i class="fa-brands fa-github"></i></li>
+								<li>My Resume<i class="fa-solid fa-file"></i></li>
+								<li>You<i class="fa-solid fa-person"></i></li>
+							</ul>
+						</div>
 					</div>
 				</div>
+				
 			</div>
 		</div>
 

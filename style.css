@@ -58,7 +58,8 @@ h1 {
 }
 
 .home-page-div {
-  height: 80%;
+  /* height: 80%; */
+  margin: 2rem 0;
 }
 
 .home-page-image {
@@ -66,12 +67,13 @@ h1 {
   color: #FCDCDC;
   box-shadow: 0 0 1rem .1rem #386272 inset, 0 0 1rem .25rem #1C323A;
   border-radius: 1rem;
+  margin: 0 0 3rem 0;
 }
 
 .home-page-card {
   background-color: #FCDCDC;
   color: #2B4C59;
-  box-shadow: 0 0 .8rem .01rem #386272 inset, 0 0 1.25rem .001rem #1C323A;
+  box-shadow: 0 0 .5rem .001rem #386272 inset, 0 0 1.25rem .001rem #1C323A;
   border-radius: 1rem;
   margin: 0 0 3rem 0;
   overflow: hidden;
@@ -79,30 +81,62 @@ h1 {
 
 .home-page-card-header {
   background-color: #2B4C59;
-  color: #FCDCDC;
+  color: #FCDCDCE6;
   font-size: 3rem;
   padding: 1rem 0 .5rem 1rem;
+  box-shadow: 0 0 .5rem .03rem #406C7D;
+  text-shadow: .4rem .05rem .4rem #FCDCDC50;
 }
 
 .home-page-card-body {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   padding: 0 1rem;
 }
 
 .home-page-card-list {
+  list-style-type: none;
   margin: -.75rem 0 .5rem 0;
   padding: 0 3rem;
+  font-size: 1.25rem;
+}
+
+.home-page-card-list li {
+  display: flex;
+  align-items: center;
+}
+
+.home-page-card-list li i {
+  padding: 0 .5rem 0 0;
+}
+
+.bisa-icon {
+  color: #1A1F71;
+}
+
+.college-icon {
+  color: #333333;
 }
 
 .home-page-card-list-skills {
+  font-size: 1.25rem;
   column-count: 2;
   column-gap: 1rem;
 }
 
-.home-page-card-list-links {
-  column-count: 4;
-  column-gap: 1rem;
+.hp-skill-icon {
+  font-size: 2.5rem;
+  margin: .4rem 0;
 }
+
+.hp-card-links {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/* .home-page-card-list-links {
+  text-align: center;
+} */
 
 .pink-card {
   background-color: #FCDCDC;
